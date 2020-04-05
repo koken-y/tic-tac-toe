@@ -1,0 +1,56 @@
+html {
+    font-family: Roboto;
+    background-color: rgb(51, 50, 59);
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#gameBoard {
+    text-align: center;
+}
+
+#gameText {
+    text-align: center;
+
+}
+
+.tile {
+    display: inline-block;
+    background-color: rgb(219, 219, 219);
+    width: 100px;
+    height: 100px;
+    margin: 2px 2px;
+    line-height: 100px;
+    border: 2px solid white;
+    color: black;
+}
+
+.tile:hover {
+    background-color: rgb(194, 238, 255);
+}
+
+.tile.X {
+    background-color: rgb(194, 208, 255);
+    background-image: url(assets/X.png);
+    background-size: cover;
+}
+
+.tile.O {
+    background-color: rgb(255, 194, 252);
+    background-image: url(assets/O.png);
+    background-size: cover;
+}
+
+#playerInfoModal {
+    display: block;
+    text-align: center;
+
+}
+
+#playerInfoModal form label {
+    display: block;
+    margin: 10px
+}
